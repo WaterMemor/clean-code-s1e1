@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.top-picture-container {
+.top-picture-cont {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.top-picture-container img {
+.top-picture-cont img {
   width: 100%;
 }
-.top-picture-container .more-inf {
+.top-picture-cont .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .top-picture-container {
+  .top-picture-cont {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.centered-main-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
