@@ -16,7 +16,9 @@
 .top-picture-cont .more-info {
   font-family: fantasy, cursive;
 }
-
+#add-elements-to-list {
+  margin: 1em 0;
+}
 @media (max-width:768px) {
   .top-picture-cont {
     text-align: center;

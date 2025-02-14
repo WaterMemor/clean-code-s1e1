@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="main-page">
-    <div class="top-picture-cont">
-      <img class="task-img" src="./eisenhower-matrix.jpg">
+    <section class="top-picture-cont">
+      <img class="task-img" src="./eisenhower-matrix.jpg" alt="Matrix picture">
       <a
         class="more-info"
         href="https://goal-life.com/page/method/matrix-eisenhower"
       >
       Want more details?
       </a>
-    </div>
-    <div class="centered-main-element">
-        <p id="add-elements-to-list">
+    </section>
+    <section class="centered-main-element">
+        <div id="add-elements-to-list">
           <label for="new-task" class="label">Add Item</label>
           <div class="task-row-wrapper">
             <input
@@ -26,7 +26,7 @@
             >
             <button class="task-btn">Add</button>
           </div>
-        </p>
+        </div>
         <h3 class="task-title">Todo</h3>
         <ul id="incomplete-tasks">
           <li class="task-item">
@@ -34,14 +34,14 @@
               type="checkbox"
               class="input-field"
             >
-            <label class="task label">Pay Bills</label>
+            <span class="task label">Pay Bills</span>
             <input
               type="text"
               class="task input-field"
             >
             <button class="task-btn edit">Edit</button>
             <button class="task-btn delete">
-              <img class="task-img" src="./remove.svg">
+              <img class="task-img" src="./remove.svg" alt="Remove button">
             </button>
           </li>
           <li class="edit-mode task-item">
@@ -49,15 +49,15 @@
               type="checkbox"
               class="input-field"
             >
-            <label class="task label">Go Shopping</label>
+            <span class="task label">Go Shopping</span>
             <input
               type="text"
               value="Go Shopping"
               class="task input-field"
             >
             <button class="task-btn edit">Save</button>
-            <button class="task-btn delete">
-              <img class="task-img" src="./remove.svg">
+            <button class="task-btn delete" aria-label="Delete task">
+              <img class="task-img" src="./remove.svg" alt="Remove button">
             </button>
           </li>
         </ul>
@@ -69,18 +69,18 @@
               class="input-field"
               checked
             >
-            <label class="task label">See the Doctor</label>
+            <span class="task label">See the Doctor</span>
             <input
               type="text"
               class="task input-field"
             >
             <button class="task-btn edit">Edit</button>
-            <button class="task-btn delete">
-              <img class="task-img" src="./remove.svg">
+            <button class="task-btn delete" aria-label="Delete task">
+              <img class="task-img" src="./remove.svg" alt="Remove button">
             </button>
-        </li>
+          </li>
       </ul>
-    </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
