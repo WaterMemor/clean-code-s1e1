@@ -36,14 +36,14 @@
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 { /* reset the default styles */
-  list-style:none;
+  list-style: none;
 }
 .input-field, .task-btn{
-  outline:none;
+  outline: none;
 }
 .task-btn {
   background: none;
@@ -127,14 +127,12 @@ li, h3 { /* reset the default styles */
 }
 /* Edit Task */
 .task-item .input-field[type=text] {
-  display:none;
+  display: none;
 }
-
 .edit-mode .input-field[type=text] {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
-
 .edit-mode .label {
-  display:none;
+  display: none;
 }
